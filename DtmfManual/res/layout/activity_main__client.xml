@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    
+    tools:context=".Main_Client" >
+
+    
+    <Button
+        android:id="@+id/right_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@+id/up_button"
+        android:layout_toRightOf="@+id/up_button"
+        android:text="RIGHT" />
+
+    <TextView
+        android:id="@+id/client_iptextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="15dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/client_passtextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/client_iptextview"
+        android:layout_below="@+id/client_iptextview"
+        android:layout_marginTop="16dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/up_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@+id/client_passtextview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="FORWARD" />
+
+    <Button
+        android:id="@+id/left_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/up_button"
+        android:layout_toLeftOf="@+id/backward_button"
+        android:text="LEFT" />
+
+    <Button
+        android:id="@+id/stop_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/up_button"
+        android:layout_alignTop="@+id/right_button"
+        android:layout_toLeftOf="@+id/right_button"
+        android:text="STOP" />
+
+    <Button
+        android:id="@+id/backward_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@+id/stop_button"
+        android:layout_centerHorizontal="true"
+        android:text="BACKWARD" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DtmfManual</string>
+    <string name="action_Refresh">Refresh</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_server">Server</string>
+    <string name="title_activity_client">Client</string>
+    <string name="title_activity_server__main">Server_Main</string>
+    <string name="title_activity_main__client">Main_Client</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>
